@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 base_url = "https://kream.co.kr"
 
 # Selenium 옵션 설정
@@ -39,6 +40,8 @@ def initialize_driver():
             print(f"웹 드라이버 초기화 중 오류 발생: {e}")
             driver = None
     return driver
+
+
 
 
 def search_products():
@@ -115,6 +118,9 @@ def search_products():
                     print(f"금액: {item_price}")
                     print(f"링크: {href_link}")
                     print("=" * 150)  # 가독성을 위한 구분선
+                    # input_y_n = input("DB에 저장 y/n : ")
+                    # if input_y_n == 1:
+                    #     return
 
             except AttributeError:
                 # 특정 항목의 요소가 없을 경우 건너뛰기
