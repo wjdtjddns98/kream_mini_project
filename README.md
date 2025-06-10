@@ -48,13 +48,6 @@ This project is a Python script designed to scrape product information from the 
     pip install beautifulsoup4 selenium
     ```
 
-5.  **스크립트 실행 (Run the Script):**
-    터미널 또는 명령 프롬프트에서 스크립트가 있는 디렉터리로 이동한 후 다음 명령어를 실행합니다.
-    ```bash
-    python your_script_name.py
-    ```
-    (여기서 `your_script_name.py`는 제공해주신 파이썬 파일의 이름입니다.)
-
 ## 📝 사용 방법 (How to Use)
 
 스크립트를 실행하면 다음과 같은 메인 메뉴가 나타납니다.
